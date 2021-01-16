@@ -1,10 +1,10 @@
 <p> 
-  <img src="rpa-git-banner-2.png" align="right">
+  <img src="img/rpa-git-banner-2.png" align="right">
 </p>
 
 [![Generic badge](https://img.shields.io/badge/rpa-S2-fa0000.svg)](https://moodle.jrr.by/)
 
-<h2> <img src="frpa_s2.jpeg" align="right" width="250">
+<h2> <img src="img/frpa_s2.jpeg" align="right" width="250">
   Materials of the course on technologies for automating business processes based on metaphorical software for bots.
 </h2>
 
