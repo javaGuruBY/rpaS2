@@ -8,8 +8,6 @@
   Materials of the course on technologies for automating business processes based on metaphorical software for bots.
 </h2>
 
-:exclamation:Tip you can make your **\*.md** files look more attractive by using markdown, badges and emojis 
-[markdown](https://guides.github.com/features/mastering-markdown/) | [badges](https://github.com/Naereen/badges) | [badges](https://github.com/Ileriayo/markdown-badges) | [badges](https://gist.github.com/tterb/982ae14a9307b80117dbf49f624ce0e8) | [emoji](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 <br>
 
 ### :open_file_folder: aTemplate
