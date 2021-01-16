@@ -13,7 +13,7 @@
 <br>
 
 ### :open_file_folder: aTemplate
-Maven project example. Copy this into your folder and change <artifactId>${my_homework}</artifactId>
+Maven project example. Copy this into your folder and change `<artifactId>${my_homework}</artifactId>`
 To perform code analyse, run 
 ```
 mvn verify sonar:sonar
