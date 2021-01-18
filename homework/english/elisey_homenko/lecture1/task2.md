@@ -30,7 +30,7 @@
 
 13)I cannot connect to the server. 
 
-14)Are you going to debug problems in your part of code?
+14)Are you going to debug the problems in your part of code?
 
 15)I hope that you will delete dangerous program from your pc.
 
