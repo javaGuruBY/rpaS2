@@ -9,19 +9,19 @@ Does Their mother cook very well?
 Lili is not rich, she doesn't drive a Mercedes.
 Let´s go out. It isn't raining now.
 I have to go now. It's getting dark
-A young man usually standes at the window.
+A young man usually stands at the window.
 Ann usually makes doll dresses herself.
 Does His wife have coffee at the moment?
 Let’s go for a walk. It is not raining.
-Look! The boys are comeing home.
+Look! The boys are coming home.
 Does Maila like Chinese food?
 My grandmother does not work. She is on pension.
 What is your brother watching now?
 Where do you live?
 Do You  play the piano well?
-Where is their brother swiming now?
+Where is their brother swimming now?
 What do they eat at breakfast?
-Are They swiming at the moment?
+Are They swimming at the moment?
 Mike doesn't wear a tie today.
 Maila does not watch TV every morning.
 Listen! Blanca is singing in the bathroom.
