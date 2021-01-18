@@ -1,9 +1,9 @@
 # Упражнения Present Simple и Present Continuous
 ## Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
-### 1. Does your mum work today?
+### 1. Is your mum working today?
 ### 2. Why are his boys talking now?
-### 3. Where is he live?
-### 4. Is their mother cook very well?
+### 3. Where is he lives?
+### 4. Is their mother cooks very well?
 ### 5. Lili isn't rich, she doesn't drive a Mercedes.
 ### 6. Let´s go out. It isn't raining now.
 ### 7. I have to go now. It's getting dark.
@@ -11,7 +11,7 @@
 ### 9. Ann usually makes doll dresses herself.
 ### 10. Is his wife having coffee at the moment?
 ### 11. Let’s go for a walk. It isn't raining.
-### 12. Look! The boys are comeing home.
+### 12. Look! The boys are coming home.
 ### 13. Does Maila like Chinese food?
 ### 14. My grandmother doesn't work. She is on pension.
 ### 15. What is your brother watching now?
@@ -20,7 +20,7 @@
 ### 18. Where is their brother swiming now?
 ### 19. What are they eat at breakfast?
 ### 20. Are they swiming at the moment?
-### 21. Mike doesn't wear a tie today.
+### 21. Mike isn't wearing a tie today.
 ### 22. Maila doesn't watch TV every morning.
 ### 23. Listen! Blanca is singing in the bathroom.
 ### 24. Bea sometimes reads comics.
