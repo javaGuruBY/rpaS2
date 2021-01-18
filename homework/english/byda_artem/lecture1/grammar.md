@@ -2,8 +2,8 @@
 
 ### Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
 
-1. Your mum is working today?
-2. Why this boys are talking now?
+1. Is your mum working today?
+2. Why are this boys talking now?
 3. Where does he live?
 4. Does their mother cook very well?
 5. Lili is not rich, she doesn't drive a Mercedes.
