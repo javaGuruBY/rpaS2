@@ -1,13 +1,13 @@
 ##Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
 
-Your mum working today?
+Is your mum working today?
 Why this boys are talking now?
 Where does he live?
 Does their mother cook very well?
 Lili is not rich, she does not to drive a Mercedes.
 Let´s go out. It is not raining now.
 I have to go now. It is geting dark
-A young man usually stand at the window.
+A young man usually stands at the window.
 Ann usually makes doll dresses herself.
 Is his wife having coffee at the moment?
 Let’s go for a walk. It is not raining.
@@ -15,7 +15,7 @@ Look! The boys comming home.
 Does Maila like Chinese food?
 My grandmother does not working. She is on pension.
 What is your brother watching now?
-Where are you live?
+Where do you live?
 Do you play the piano well?
 Where is their brother swiming now?
 What are they eating at breakfast?
