@@ -4,8 +4,8 @@
 
 1. Your mum is working today?
 2. Why this boys are talking now?
-3. Where he lives?
-4. Their mother cooks very well?
+3. Where does he live?
+4. Does their mother cook very well?
 5. Lili is not rich, she does not drive a Mercedes.
 6. Let´s go out. It is not raining now.
 7. I have to go now. It is geting dark
@@ -14,7 +14,7 @@
 10. His wife is having coffee at the moment?
 11. Let’s go for a walk. It is not raining.
 12. Look! The boys are coming home.
-13. Maila likes Chinese food?
+13. Does Maila like Chinese food?
 14. My grandmother dooes not work. She is on pension.
 15. What your brother is watching now?
 16. Where do you live?
