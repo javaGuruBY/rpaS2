@@ -2,17 +2,17 @@
 
 ### Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
 
-1. Your mum is working today?
-2. Why these boys are talking now?
-3. Where does he to live?
-4. Their mother cooks very well?
+1. Is your mum working today?
+2. Why are these boys talking now?
+3. Where does he live?
+4. Does their mother cook very well?
 5. Lili is not rich, she doesn't drive a Mercedes.
-6. Let´s go out. It isn't raining now.
+6. Let´s go out. It is not raining now.
 7. I have to go now. It is getting dark
 8. A young man usually stands at the window.
 9. Ann usually makes doll dresses herself.
 10. Is his wife having coffee at the moment?
-11. Let’s go for a walk. It is not rain.
+11. Let’s go for a walk. It is not raining.
 12. Look! The boys are coming home.
 13. Does Maila like Chinese food?
 14. My grandmother doesn't work. She is on pension.
@@ -22,13 +22,13 @@
 18. Where is their brother swimming now?
 19. What do they eat at breakfast?
 20. Are they swimming at the moment?
-21. Mike do not wear a tie today.
+21. Mike is not wearing a tie today.
 22. Maila does not watch TV every morning.
 23. Listen! Blanca is singing in the bathroom.
 24. Bea sometimes reads comics.
 
 ### Найдите ошибки и исправьте их.
-1. We do not go to school today.
+1. We are not going to school today.
 2. What do you do after school?
 3. At the moment Peter is working in Russia.
 4. Does he get a new car? or Has he got a new car?
