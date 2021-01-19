@@ -14,7 +14,7 @@
 10. Does his wife having coffee at the moment?
 11. Let’s go for a walk. It doesn't rain.
 12. Look! The boys are comming home.
-13. Does Maila likes Chinese food?
+13. Does Maila like Chinese food?
 14. My grandmother doesn't work). She is on pension.
 15. What is your brother watching now?
 16. Where do you live?
