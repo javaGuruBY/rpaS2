@@ -2,8 +2,8 @@
 
 ### Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
 
-1. Is your mum workking today?
-2. Why is this boys talking now?
+1. Is your mum working today?
+2. Why are this boys talking now?
 3. Where does he live?
 4. Does their mother cook very well?
 5. Lili is not rich, she doesn't drive a Mercedes.
@@ -13,7 +13,7 @@
 9. Ann usually makes doll dresses herself.
 10. Does his wife having coffee at the moment?
 11. Let’s go for a walk. It doesn't rain.
-12. Look! The boys is comming home.
+12. Look! The boys are comming home.
 13. Does Maila likes Chinese food?
 14. My grandmother doesn't work). She is on pension.
 15. What is your brother watching now?
@@ -34,9 +34,9 @@
 4. Does he **get** a new car?  
 5. He never **wears** a hat. 
 6. He **doesn’t** like black coffee. 
-7. We <s>are</s> have a good time.  
+7. We have a good time.  
 8. What **are** you doing now? 
-9. It <s>rains</s>is raining at the moment.
+9. It is raining at the moment.
 10. How **do** you like the game?
 
 ### Начните вопросы с do, does, is, are или am. 
