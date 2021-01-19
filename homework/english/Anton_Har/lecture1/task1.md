@@ -3,7 +3,7 @@
 Упражнения Present Simple и Present Continuous
 Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
 Is your mum working today?
-Why is this boys talking now?
+Why are this boys talking now?
 Where does he to live?
 Does their mother cook very well?
 Lili is not rich, she does not to drive a Mercedes.
