@@ -2,9 +2,9 @@
 ## Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
 
 Is your mum working today?
-Why this boys are talking now?
-Where he lives?
-Is their mother cookes very well?
+Why are this boys talking now?
+Where does he live?
+Does their mother cook very well?
 Lili is not rich, she does not drive a Mercedes.
 Let´s go out. It is raining now.
 I have to go now. It is getting dark.
@@ -18,7 +18,7 @@ My grandmother doesn't work. She is on pension.
 What is your brother watching now?
 Where do you live?
 Do You play the piano well?
-Where their brother is swimming now?
+Where is their brother swimming now?
 What do they eat at breakfast?
 Are they swimming at the moment?
 Mike is not wearing a tie today.
