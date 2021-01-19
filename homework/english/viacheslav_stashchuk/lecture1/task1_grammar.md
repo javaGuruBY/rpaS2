@@ -2,7 +2,7 @@
 Your mum (work) today? - Is your mum working today? 
 Why this boys (to talk) now? - Why are these boys talking now?
 Where he (to live)? - Where does he live?
-Their mother (cook) very well? - Is their mother cooking very well?
+Their mother (cook) very well? - Does their mother cook very well?
 Lili is not rich, she (not to drive) a Mercedes. - Lili is not rich, she does not drive a Mercedes.
 Let´s go out. It (not rain) now. - Let´s go out. It is not raining now.
 I have to go now. It (get) dark - I have to go now. It is getting dark
