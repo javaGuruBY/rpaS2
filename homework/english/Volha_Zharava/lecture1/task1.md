@@ -1,9 +1,9 @@
 Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
 Is your mum working today?
-Why are this boys talking now?
+Why are these boys talking now?
 Where does he live?
 Does their mother cook very well?
-Lili is not rich, she dosen't drive a Mercedes.
+Lili is not rich, she doesn't drive a Mercedes.
 Let´s go out. It isn't raining now.
 I have to go now. It is getting dark
 A young man usually stands at the window.
@@ -16,16 +16,16 @@ My grandmother does not work. She is on pension.
 What is your brother watching now?
 Where do you live?
 Do you play the piano well?
-Where is their brother swimming now?
+Where is their brother swiming now?
 What do they eat at breakfast?
-Are they swimming at the moment?
+Are they swiming at the moment?
 Mike is not wearing a tie today.
 Maila does not watch TV every morning.
 Listen! Blanca is singing in the bathroom.
 Bea sometimes reads comics.
 
 Найдите ошибки и исправьте их.
-We do not go to school today.
+We are not going to school today.
 What are you doing after school?
 At the moment Peter is working in Russia.
 Does he get a new car?
