@@ -11,7 +11,7 @@ public class DogServiceUtilTest {
     public void bark() {
         Dog dog = new Dog();
         dog.setName("Malysh");
-        String expected = "Malysh";
+        String expected = "Malysh BARK!";
 
         String actual =  DogServiceUtil.bark(dog);
 
