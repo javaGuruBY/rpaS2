@@ -18,11 +18,11 @@ Where do you live?
 Do you play the piano well?
 Where is their brother swimming now?
 What do they eat at breakfast?
-They are swimming at the moment?
+Are they swimming at the moment?
 Mike is not wearing a tie today.
 Maila does not watch TV every morning.
 Listen! Blanca is singing in the bathroom.
-Bea sometimes read comics.
+Bea sometimes reads comics.
 
 Найдите ошибки и исправьте их.
 We do not go to school today.
