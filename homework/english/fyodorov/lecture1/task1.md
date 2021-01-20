@@ -1,7 +1,7 @@
 # Grammar homework Fyodorov
 ### Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
 
-1. Does your mum work today?
+1. Is your mum working today?
 2. Why this boys are talking now?
 3. Where does he live?
 4. Does Their mother cook very well?
@@ -21,7 +21,7 @@
 18. Where is their brother swimming now?
 19. What do they eat at breakfast?
 20. Are They swimming at the moment?
-21. Mike doesn't wear a tie today.
+21. Mike isn't wearing a tie today.
 22. Maila doesn't watch TV every morning.
 23. Listen! Blanca is singing in the bathroom.
 24. Bea sometimes reads comics.
