@@ -62,7 +62,7 @@ Does he got a new car?                                        Does he get a new 
 
 He never wear a hat.                                          He never wears a hat.
 
-He don’t like black coffee.                                   He dosen't like black coffee.
+He don’t like black coffee.                                   He doesn't like black coffee.
 
 We are have a good time.                                      We are have a good time.
 
@@ -70,7 +70,7 @@ What you doing now?                                           What are you doing
 
 It rains at the moment.                                       it's raining at the moment.
 
-How you like the game?                                        Do you like the game?
+How you like the game?                                        How do you like the game?
 
 ## Начните вопросы с do, does, is, are или am.
 
