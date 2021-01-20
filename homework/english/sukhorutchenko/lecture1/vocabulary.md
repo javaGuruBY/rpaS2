@@ -30,7 +30,7 @@ to display
 It doesn't display the screen
 
 to enable
-Enable a new fuch today
+Enable the new feature today
 
 to execute
 The application is not yet able to execute this command
@@ -42,7 +42,7 @@ to install
 Install a new library 
 
 to plug in
-It is always necessary to plug in git it is convenient
+It is always necessary to plug in a git. It is convenient
 
 to restore
 Restore the old version of the application
