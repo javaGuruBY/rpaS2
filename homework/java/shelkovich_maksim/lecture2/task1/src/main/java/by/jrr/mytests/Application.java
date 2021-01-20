@@ -1,20 +1,11 @@
 package by.jrr.mytests;
 
-import by.jrr.mytests.bean.Dog;
-import by.jrr.mytests.service.DogService;
-import by.jrr.mytests.service.DogServiceUtil;
+import by.jrr.mytests.service.TestService;
 
 public class Application {
 
-    public static void main(String[] args) {
-        Dog dog = new Dog();
-        dog.setName("Malysh");
-
-        System.out.println(DogServiceUtil.bark(dog));
-
-        DogService dogService = new DogService(dog);
-        System.out.println(dogService.bark());
-
-
+    public static void main(String[] args) throws Exception {
+        TestService testService = new TestService();
+        testService.run();
     }
 }
