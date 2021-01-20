@@ -6,12 +6,12 @@
 3. Where does he live?
 4. Does Their mother cook very well?
 5. Lili is not rich, she doesn't drive a Mercedes.
-6. Let´s go out. It isn't rainning now.
+6. Let´s go out. It isn't raining now.
 7. I have to go now. It is getting dark.
 8. A young man usually stands at the window.
 9. Ann usually makes up doll dresses herself.
 10. Is His wife having coffee at the moment?
-11. Let’s go for a walk. It isn't rainning.
+11. Let’s go for a walk. It isn't raining.
 12. Look! The boys are coming home.
 13. Does Maila like Chinese food?
 14. My grandmother doesn't work. She is on pension.
