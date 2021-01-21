@@ -5,7 +5,7 @@
 1. Is your mum working today
 2. Why are this boys to talking now?
 3. Where does he live?
-4. Their mother cooks very well?
+4. Does their mother cook very well?
 5. Lili is not rich, she doesn't drive a Mercedes.
 6. Let´s go out. It's not raining now.
 7. I have to go now. It is getting dark
@@ -22,7 +22,7 @@
 18. Where is their brother swimming now?
 19. What do they eat at breakfast?
 20. Are they swimming at the moment?
-21. Mike doesn't wear a tie today.
+21. Mike isn't wearing a tie today.
 22. Maila doesn't watch TV every morning.
 23. Listen! Blanca is singing in the bathroom.
 24. Bea sometimes reads comics.
