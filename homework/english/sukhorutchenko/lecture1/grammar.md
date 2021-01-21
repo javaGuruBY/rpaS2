@@ -28,8 +28,8 @@
 24. Bea sometimes reads comics.
 
 ### Найдите ошибки и исправьте их.
-1. We do not go to school today
-2. What do you do after school?
+1. We are not going to school today
+2. What are you doing after school?
 3. At the moment Peter is working in russia
 4. Does he get a new car?  
 5. He never wears a hat. 
