@@ -1,6 +1,6 @@
-#Упражнения Present Simple и Present Continuous
+# Упражнения Present Simple и Present Continuous
 
-###Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
+### Раскройте скобки, употребляя глаголы в Present Continuous или в Present Simple.
 
 Is your mum working today?
 Why are this boys to talking now?
@@ -27,7 +27,7 @@ Maila doesn't watch TV every morning.
 Listen! Blanca is singing in the bathroom.
 Bea sometimes reads comics.
 
-###Найдите ошибки и исправьте их.
+### Найдите ошибки и исправьте их.
 
 We are not going to school today.
 What are you doing after school?
@@ -40,7 +40,7 @@ What are you doing now?
 It is raining at the moment.
 How do you like the game?
 
-###Начните вопросы с do, does, is, are или am.
+### Начните вопросы с do, does, is, are или am.
 
 Do you learn new words in each lesson?
 Are you learning the new words right now?
