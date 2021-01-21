@@ -27,7 +27,7 @@ to disconnect
 Database to disconnect from server
 
 to display
-It doesn't display the screen
+It doesn't display on the screen
 
 to enable
 Enable the new feature today
