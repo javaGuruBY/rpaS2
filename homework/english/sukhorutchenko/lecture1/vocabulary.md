@@ -12,7 +12,7 @@ to connect
 I can not connect my project to the database
 
 to debug
-Today I'm doing a debugging program
+Today I'm debugging the program
 
 to delete
 You cannot use this because it is being deleted
