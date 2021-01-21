@@ -2,13 +2,13 @@
 Напишите по 1 предложению к каждому слову из лексического блока в 1 уроке (слова есть в презентации).
 
 to boot
-He is booting updates to the server now.
+He is booting OS now.
 
 to create
 At the previous lesson we learned how to create a new class.
 
 to connect
-He tryed to connect to the server but every time he received 500 mistake.
+He tried to connect to the server but every time he received 500 mistake.
 
 to debug
 It took him 20 minutes to debug programm.
