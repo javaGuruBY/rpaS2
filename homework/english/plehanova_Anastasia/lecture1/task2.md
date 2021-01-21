@@ -2,7 +2,7 @@
 ### Напишите по 1 предложению к каждому слову из лексического блока в 1 уроке (слова есть в презентации).
 
 1. to boot
-  I need to boot OS after instaling some updates.
+  I need to boot OS after installing some updates.
 2. to create
   We should create new file for each homework task.
 3. to connect
@@ -34,7 +34,7 @@
 16. to uninstall
   Uninstall this programm if you need no more.
 17. to update
-  Every day in my computure updates different programms.
+  Every day in my computer updates different programms.
 18. to upgrade
   This application is upgraded every three months.
 19. to verify
