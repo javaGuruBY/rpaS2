@@ -22,14 +22,14 @@
 18. Where is their brother swiming now?
 19. What do they eat at breakfast?
 20. Are they swiming at the moment?
-21. Mike does not wear a tie today.
+21. Mike isn't wearing a tie today.
 22. Maila does not watch TV every morning.
 23. Listen! Blanca is singing in the bathroom.
 24. Bea sometimes reads comics.
 
 ### Найдите ошибки и исправьте их.
-1. We do not go to school today
-2. What do you do after school?
+1. We are not going to school today
+2. What are you doing after school?
 3. At the moment Peter is working in russia
 4. Does he get a new car?  
 5. He never wears a hat. 
