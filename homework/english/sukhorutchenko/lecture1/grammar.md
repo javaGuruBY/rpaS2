@@ -22,7 +22,7 @@
 18. Where is their brother swiming now?
 19. What do they eat at breakfast?
 20. Are they swiming at the moment?
-21. Mike does not wear a tie today.
+21. Mike isn't wearing a tie today.
 22. Maila does not watch TV every morning.
 23. Listen! Blanca is singing in the bathroom.
 24. Bea sometimes reads comics.
