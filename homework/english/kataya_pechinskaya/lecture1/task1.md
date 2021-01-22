@@ -8,7 +8,7 @@
 7. I have to go now. It is getting dark
 8. A young man usually stands at the window.
 9. Ann usually makes doll dresses herself.
-10. Does his wife having coffee at the moment?
+10. Is his wife having coffee at the moment?
 11. Let’s go for a walk. It doesn't rain.
 12. Look! The boys are comming home.
 13. Does Maila like Chinese food?
