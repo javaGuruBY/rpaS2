@@ -3,18 +3,13 @@ package by.jrr.mytests;
 import by.jrr.mytests.bean.Dog;
 import by.jrr.mytests.service.DogService;
 import by.jrr.mytests.service.DogServiceUtill;
+import by.jrr.mytests.service.TestService;
 
 public class Application {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
-        System.out.println("Hello World");
-        Dog dog = new Dog();
-        dog.setName("DogName");
-
-        System.out.println(DogServiceUtill.bark(dog));
-
-        DogService dogService= new DogService(dog);
-        System.out.println(dogService.bark());
+        TestService testService = new TestService();
+        testService.run();
     }
 }
