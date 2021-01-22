@@ -19,15 +19,6 @@ public class DogServiceTest {
     }
 
     @Test
-    public void Bark1() {
-        Dog dog = new Dog();
-        dog.setName("Kolya");
-        String expected = "Kolya BARK!";
-        String actual = DogServiceUtil.bark(dog);
-        assertEquals(expected, actual);
-    }
-
-    @Test
     public void convertPriceToHrivna_ShoudReturnWithDiscount() {
         Dog dog = new Dog();
         dog.setPrice(97);
