@@ -7,9 +7,9 @@ import by.jrr.mytests.service.TestService;
 
 public class Application {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  {
 
-        TestService testService = new TestService();
-        testService.run();
+      //  TestService testService = new TestService();
+      //  testService.run();
     }
 }

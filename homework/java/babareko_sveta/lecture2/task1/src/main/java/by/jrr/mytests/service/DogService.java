@@ -12,4 +12,12 @@ public class DogService {
     public String bark(){
         return dog.getName() + " BARK!  from dogService";
     }
+
+    public double convertPriceToHrivna(double exchangeRate){
+        double convertedPrice = dog.getPrice()*exchangeRate;
+        if(convertedPrice > 1000){
+            convertedPrice = convertedPrice * 0.97;
+        }
+        return convertedPrice;
+    }
 }
