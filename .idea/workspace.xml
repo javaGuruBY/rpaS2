@@ -26,6 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="137a8af1-ead0-43ab-ba4a-3338016a057b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/homework/java/RudayV/Lecture2/Task1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/java/RudayV/Lecture2/Task1/src/main/java/.initial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/java/RudayV/Lecture2/Task1/src/main/java/by/jrr/start/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/java/RudayV/Lecture2/Task1/src/main/resources/.initial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/java/RudayV/Lecture2/Task1/src/test/java/.initial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aTemplate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aTemplate/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +43,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n8oaLwpEbifO5dx7SAJBG7tKbr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -48,8 +57,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/java/RudayV/Lecture2/Task1" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\i3oi3\IdeaProjects\rpa\homework\java\RudayV\Lecture2\Task1" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\PTSNIK\AppData\Roaming\Subversion</configuration>
@@ -61,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610781140951</updated>
-      <workItem from="1611323277207" duration="322000" />
+      <workItem from="1611323277207" duration="705000" />
     </task>
     <servers />
   </component>
