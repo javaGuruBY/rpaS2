@@ -3,11 +3,11 @@ In creative mode you can create what you want.
 Every day my computer connects to network automatically.
 I need to debug this programm.
 I often delete unnecessary files from my computer.
-I'm developing a chat-bot at this month.
+I'm developing a chat-bot this month.
 Do you disable plugins in browser, in wich you have no need.
 Don't forget to disconnect all cables before opening electrical panel.
 This interface doesn't display my new feature.
-He always enables VPN when his looking through Nexta channels.
+He always enables VPN when he is looking through Nexta channels.
 Your command cannot been executed.
 Implementing new features in your project is good practice.
 I was constantly installing and uninstalling different programs at my recent work.
