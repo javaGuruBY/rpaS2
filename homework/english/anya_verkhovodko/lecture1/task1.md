@@ -1,7 +1,7 @@
 # Homework 1 task 1
 
 Does our mum work today?
-Why these boys are talking now?
+Why are these boys talking now?
 Where does he live?
 Does their mother cook very well?
 Lili is not rich, she doesn't drive a Mercedes.
