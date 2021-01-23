@@ -8,7 +8,7 @@ public class DogServiceUtilTest extends TestCase {
     public void testBark() {
         Dog dog = new Dog();
         dog.setName("Malysh");
-        String expected = "Malysh";
+        String expected = "Malysh BARK!";
 
         String actual = DogServiceUtil.bark(dog);
         assertEquals(expected, actual);
