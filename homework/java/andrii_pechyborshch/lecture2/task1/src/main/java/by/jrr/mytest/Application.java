@@ -3,15 +3,12 @@ package by.jrr.mytest;
 import by.jrr.mytest.beam.Dog;
 import by.jrr.mytest.service.DogService;
 import by.jrr.mytest.service.DogServiceUtil;
+import by.jrr.mytest.service.TestServise;
 
 public class Application {
 
-    public static void main(String[] args) {
-        Dog dog = new Dog();
-        dog.setName("Malysh");
-        System.out.println(DogServiceUtil.bark(dog));
+    public static void main(String[] args){
 
-        DogService dogService = new DogService(dog);
-        System.out.println(dogService.bark());
+
     }
 }
