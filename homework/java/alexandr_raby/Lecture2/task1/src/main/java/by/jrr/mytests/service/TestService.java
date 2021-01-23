@@ -14,7 +14,7 @@ public class TestService {
 
         DogService dogService = new DogService(dog);
         String actual = dogService.bark();
-        assetrEquals(expected, actual, "dogServiceTest");
+        assertEquals(expected, actual, "dogServiceTest");
     }
     public void dogServiceUtilTest () throws Exception {
         Dog dog = new Dog();
@@ -22,10 +22,10 @@ public class TestService {
         String expected = "BARK!     BARK!";
 
         String actual = DogServiceUtil.bark(dog);
-        assetrEquals(expected, actual, "dogServiceUtilTest");
+        assertEquals(expected, actual, "dogServiceUtilTest");
 
     }
-    public void assetrEquals(String expected, String actual, String testName) throws Exception {
+    public void assertEquals(String expected, String actual, String testName) throws Exception {
         boolean isPassed = expected.equals(actual);
         if (!isPassed) {
             throw new Exception(testName + " NOT PASSED ");
