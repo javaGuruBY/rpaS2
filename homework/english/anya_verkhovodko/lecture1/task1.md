@@ -9,7 +9,7 @@ Let´s go out. It is not raining now.
 I have to go now. It is getting dark
 A young man usually stands at the window.
 Ann usually makes.......... doll dresses herself.
-Does his wife have coffee at the moment?
+Is his wife having coffee at the moment?
 Let’s go for a walk. It is not raining.
 Look! The boys are coming home.
 Does Maila like Chinese food?
