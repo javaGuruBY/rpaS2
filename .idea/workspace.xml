@@ -25,16 +25,26 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="137a8af1-ead0-43ab-ba4a-3338016a057b" name="Default Changelist" comment="" />
+    <list default="true" id="137a8af1-ead0-43ab-ba4a-3338016a057b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="'liudmila_example_tests'" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n8oaLwpEbifO5dx7SAJBG7tKbr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -47,6 +57,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\PTSNIK\AppData\Roaming\Subversion</configuration>
   </component>
@@ -71,19 +82,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="420" y="246" key="FileChooserDialogImpl" timestamp="1611133468916">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="420" y="246" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1611133468916" />
-    <state x="141" y="123" key="SettingsEditor" timestamp="1611133653067">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="141" y="123" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1611133653067" />
-    <state x="415" y="355" key="svn4idea.checkout.options" timestamp="1611133477322">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="415" y="355" key="svn4idea.checkout.options/0.0.1280.984@0.0.1280.984" timestamp="1611133477322" />
   </component>
 </project>
