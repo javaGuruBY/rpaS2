@@ -25,16 +25,26 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="137a8af1-ead0-43ab-ba4a-3338016a057b" name="Default Changelist" comment="" />
+    <list default="true" id="137a8af1-ead0-43ab-ba4a-3338016a057b" name="Default Changelist" comment="re - create branch.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n8oaLwpEbifO5dx7SAJBG7tKbr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -44,9 +54,55 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/java/Kuzin_Sergej/lecture1" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kuzin\rpaS2\Kuzin_Sergej\homework\java\Kuzin_Sergej\lecture1" />
+      <recent name="C:\Users\kuzin\rpaS2\Kuzin_Sergej\homework\java\Kuzin_Sergej\src\main\java\by\jrr\start" />
+      <recent name="C:\Users\kuzin\rpaS2\Kuzin_Sergej\homework\java\Kuzin_Sergej" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-11.0.9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MathOperationsDemo" />
+      <module name="paS2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\PTSNIK\AppData\Roaming\Subversion</configuration>
   </component>
@@ -58,6 +114,28 @@
       <option name="presentableId" value="Default" />
       <updated>1610781140951</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create new branch.">
+      <created>1611500902134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611500902134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create new branch. &#10;re - create branch.">
+      <created>1611505033553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611505033553</updated>
+    </task>
+    <task id="LOCAL-00003" summary="re - create branch.">
+      <created>1611505326909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611505326909</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,18 +150,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="420" y="246" key="FileChooserDialogImpl" timestamp="1611133468916">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="420" y="246" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1611133468916" />
-    <state x="141" y="123" key="SettingsEditor" timestamp="1611133653067">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="141" y="123" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1611133653067" />
-    <state x="415" y="355" key="svn4idea.checkout.options" timestamp="1611133477322">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="415" y="355" key="svn4idea.checkout.options/0.0.1280.984@0.0.1280.984" timestamp="1611133477322" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create new branch." />
+    <MESSAGE value="Create new branch. &#10;re - create branch." />
+    <MESSAGE value="re - create branch." />
+    <option name="LAST_COMMIT_MESSAGE" value="re - create branch." />
   </component>
 </project>
