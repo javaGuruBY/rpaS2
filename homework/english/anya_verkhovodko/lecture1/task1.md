@@ -1,6 +1,6 @@
 # Homework 1 task 1
 
-Does our mum work today?
+IS our mum working today?
 Why are these boys talking now?
 Where does he live?
 Does their mother cook very well?
