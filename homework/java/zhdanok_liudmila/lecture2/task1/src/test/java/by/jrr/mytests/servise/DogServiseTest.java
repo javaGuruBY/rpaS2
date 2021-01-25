@@ -1,7 +1,7 @@
 package by.jrr.mytests.servise;
 
 import by.jrr.mytests.bean.Dog;
-import org.junit.Assert;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
