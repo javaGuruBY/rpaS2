@@ -11,7 +11,7 @@ public class DogServiceUtilTest {
     public void bark() {
         Dog dog = new Dog ();
         dog.setName("Volodya");
-        String expected = "BARK! BARK!";
+        String expected = "Volodya BARK!";
 
         String actual = DogServiceUtil.bark(dog);
         assertEquals(expected, actual);
