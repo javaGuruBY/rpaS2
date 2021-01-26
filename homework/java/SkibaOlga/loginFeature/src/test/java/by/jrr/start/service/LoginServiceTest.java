@@ -32,8 +32,29 @@ public class LoginServiceTest {
 
         boolean actuelResult = loginService.checkUserPassword(user, userInput);
         Assert.assertFalse(actuelResult);
-
     }
+
+    @Test
+    public void reduceLoginAttempts() {
+        loginService.reduceLoginAttempts (user);
+        Assert.assertEquals(2, user.getLoginAttempts());
+    }
+    @Test
+    public void login_positive() {
+        String userInput = "password";
+
+        boolean actuelResult = loginService.login(user, userInput);
+        Assert.assertTrue(actuelResult);
+    }
+    @Test
+    public void login_negative() {
+        String userInput = "wrong";
+
+        boolean actuelResult = loginService.login(user, userInput);
+        Assert.assertFalse(actuelResult);
+        Assert.assertEquals(2, user.getLoginAttempts());
+    }
+
     private User getUser() {
         User user = new User();
         user.setPassword("password");
