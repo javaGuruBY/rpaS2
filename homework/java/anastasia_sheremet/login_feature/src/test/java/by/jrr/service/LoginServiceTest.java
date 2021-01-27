@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-    public class LoginServiceTest {
+public class LoginServiceTest {
 
     LoginService loginService;
     User user;
@@ -34,6 +34,30 @@ import static org.junit.Assert.*;
         boolean actualResult = loginService.checkUserPassword(user, userInput);
         Assert.assertFalse(actualResult);
     }
+
+    @Test
+    public void reduceLoginAttempts() {
+        loginService.reduceLoginAttempts(user);
+        Assert.assertEquals(2, user.getLoginAttempts());
+    }
+
+    @Test
+    public void login_positive() {
+        String userInput = "password";
+
+        boolean actualResult = loginService.login(user, userInput);
+        Assert.assertTrue(actualResult);
+    }
+
+    @Test
+    public void login_negative() {
+        String userInput = "wrong";
+
+        boolean actualResult = loginService.login(user, userInput);
+        Assert.assertFalse(actualResult);
+        Assert.assertEquals(2, user.getLoginAttempts());
+    }
+
 
     private User getUser() {
         User user = new User();
