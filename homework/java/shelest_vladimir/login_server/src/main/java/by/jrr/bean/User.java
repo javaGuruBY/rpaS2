@@ -20,30 +20,6 @@ public class User implements IUser {
         this._isBlocked = false;
     }
 
-    public String get_login() {
-        return _login;
-    }
-
-    public void set_login(String login) {
-        this._login = login;
-    }
-
-    public String get_password() {
-        return _password;
-    }
-
-    public void set_password(String password) {
-        this._password = password;
-    }
-
-    public int get_attempt() {
-        return _attempt;
-    }
-
-    public void set_attempt(int attempt) {
-        this._attempt = attempt;
-    }
-
     public boolean get_isBlocked() {
         return _isBlocked;
     }
@@ -85,13 +61,11 @@ public class User implements IUser {
         _attempt = MAX_NUMBER_ATTEMPTS;
     }
 
-    @Override
-    public boolean IsCorrectLogin(String enteredLogin) {
+    private boolean IsCorrectLogin(String enteredLogin) {
         return _login.equals(enteredLogin);
     }
 
-    @Override
-    public boolean IsCorrectPassword(String enteredPassword) {
+    private boolean IsCorrectPassword(String enteredPassword) {
         boolean isCorrectPassword = _password.equals(enteredPassword);
         if (isCorrectPassword) {
             this.RestoreAttempts();
