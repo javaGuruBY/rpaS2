@@ -4,8 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 import by.jrr.bean.User;
 
-import javax.print.MultiDocPrintService;
-
 import static org.junit.Assert.*;
 
 public class IUserTest {

@@ -4,7 +4,8 @@ import by.jrr.service.IUser;
 import java.util.Objects;
 
 public class User implements IUser {
-    private final int NUMBER_ATTEMPTS = 3;
+    private final int MAX_NUMBER_ATTEMPTS = 3;
+
     private String _login;
     private String _password;
     private int _attempt;
@@ -14,7 +15,7 @@ public class User implements IUser {
         this._login = login;
         this._password = password;
         // Max number of attempts
-        this._attempt = 3;
+        this._attempt = MAX_NUMBER_ATTEMPTS;
         // User is unblocked
         this._isBlocked = false;
     }
@@ -23,32 +24,32 @@ public class User implements IUser {
         return _login;
     }
 
-    public void set_login(String _login) {
-        this._login = _login;
+    public void set_login(String login) {
+        this._login = login;
     }
 
     public String get_password() {
         return _password;
     }
 
-    public void set_password(String _password) {
-        this._password = _password;
+    public void set_password(String password) {
+        this._password = password;
     }
 
     public int get_attempt() {
         return _attempt;
     }
 
-    public void set_attempt(int _attempt) {
-        this._attempt = _attempt;
+    public void set_attempt(int attempt) {
+        this._attempt = attempt;
     }
 
-    public boolean is_isBlocked() {
+    public boolean get_isBlocked() {
         return _isBlocked;
     }
 
-    public void set_isBlocked(boolean _isBlocked) {
-        this._isBlocked = _isBlocked;
+    public void blockUser() {
+        this._isBlocked = false;
     }
 
     @Override
@@ -76,7 +77,10 @@ public class User implements IUser {
 
     @Override
     public boolean IsCorrectLogin(String enteredLogin) {
-        return _login.equals(enteredLogin);
+        boolean incorrectLogin = _login.equals(enteredLogin);
+        if (!incorrectLogin)
+            this.ReduceAttempts();
+        return incorrectLogin;
     }
 
     @Override
@@ -87,12 +91,12 @@ public class User implements IUser {
     @Override
     public void ReduceAttempts() {
         --_attempt;
+        if (_attempt == 0)
+            this.blockUser();
     }
 
     @Override
     public void RestoreAttempts() {
-        _attempt = 3;
+        _attempt = MAX_NUMBER_ATTEMPTS;
     }
-
-
 }

@@ -5,4 +5,5 @@ public interface IUser {
     boolean IsCorrectPassword (String enteredPassword);
     void ReduceAttempts();
     void RestoreAttempts();
+    //void LogIn(String enteredLogin, String enteredPassword);
 }
