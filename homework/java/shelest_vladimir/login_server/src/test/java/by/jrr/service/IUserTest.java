@@ -13,8 +13,19 @@ public class IUserTest {
         String enteredLogin = "Login";
 
         boolean expected = true;
-
         boolean actual = user.IsCorrectLogin(enteredLogin);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void IsCorrectPassword() {
+        User user = new User("Login", "Password");
+        String enteredPassword = "Password";
+
+        boolean expected = true;
+        boolean actual = user.IsCorrectPassword(enteredPassword);
+
         Assert.assertEquals(expected, actual);
     }
 }
