@@ -5,13 +5,13 @@
 1. I've just had a nice pot of coffee. Would you like a cup?
 2. I've not seen Steve this morning yet.
 3. Carol and I are old friends. I've known her since I was a freshman in high school.
-4. Maria has had a lot of problems since she come to this country.
+4. Maria has had a lot of problems since she came to this country.
 5. I went to Paris in 2003 and 2006.
 6. A car came round the corner and I jumped out of the way.
 7. Don’t throw the paper away because I've not read it yet.
 8. Is Jim going to eat lunch with us today? — No. He has eaten already. He aet lunch an hour ago.
-9.  Since we've started doing this exercise, we completed  some sentences.
-10. I've never been to Italy.
+9. Since we started doing this exercise, we've completed some sentences. 
+10. I've never been in Italy.
 
 ### Упражнение 2. Put the verbs in brackets in the Past Simple or in the Present Perfect.
 
@@ -20,10 +20,10 @@
 3. It’s the first time I've been on a ship.
 4. Ann is looking for her key. She can’t find it. She lost her key.
 5. How many symphonies Beethoven has composed?
-6. Look! Somebody spilt ink on the notebook.
+6. Look! Somebody has spilt ink on the notebook.
 7. Have you had a holiday this year yet?
 8. Have you seen any good films recently?
-9. He hasn't had any problems since he come here.
+9. He hasn't had any problems since he came here.
 
 ### Упражнение 3. Раскройте скобки, употребляя глаголы в Past Simple или Present Perfect
 
