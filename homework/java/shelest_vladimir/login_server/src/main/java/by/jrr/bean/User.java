@@ -80,6 +80,9 @@ public class User implements IUser {
         boolean incorrectLogin = _login.equals(enteredLogin);
         if (!incorrectLogin)
             this.ReduceAttempts();
+        else
+            this.RestoreAttempts();
+
         return incorrectLogin;
     }
 
