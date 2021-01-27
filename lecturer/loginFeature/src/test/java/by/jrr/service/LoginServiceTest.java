@@ -12,13 +12,18 @@ public class LoginServiceTest {
     User user;
     String positiveUserInput = "password";
     String negativeUserInput = "wrong";
+    User blockedUser;
 
     @Before
     public void setUp(){
         this.loginService = new LoginService();
         this.user = getUser();
+        this.blockedUser = getBlockedUser();
         Assert.assertEquals(3,user.getLoginAttempts());
         Assert.assertFalse(user.isBlocked());
+
+        Assert.assertEquals(0, blockedUser.getLoginAttempts());
+        Assert.assertTrue(blockedUser.isBlocked());
     }
 
     @Test
@@ -81,6 +86,21 @@ public class LoginServiceTest {
         loginService.login(user, negativeUserInput);
         Assert.assertEquals(0,user.getLoginAttempts());
         Assert.assertTrue(user.isBlocked());
+    }
+
+    @Test
+    public void blockedUserLogin_ShouldReturnFalse(){
+        boolean actualResult = loginService.login(blockedUser, positiveUserInput);
+        Assert.assertFalse(actualResult);
+    }
+
+
+    private User getBlockedUser(){
+        User user = new User();
+        user.setPassword("password");
+        user.setLoginAttempts(0);
+        user.setBlocked(true);
+        return user;
     }
 
 }
