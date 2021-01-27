@@ -7,6 +7,6 @@ public class Application {
     public static void main(String[] args) {
         User user = new User("Login", "Password");
 
-
+        user.LogIn("Login", "Password");
     }
 }
