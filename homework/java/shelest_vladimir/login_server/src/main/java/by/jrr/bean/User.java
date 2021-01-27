@@ -48,7 +48,7 @@ public class User implements IUser {
         return _isBlocked;
     }
 
-    public void blockUser() {
+    private void blockUser() {
         this._isBlocked = false;
     }
 
@@ -75,6 +75,16 @@ public class User implements IUser {
         return Objects.hash(_login, _password, _attempt, _isBlocked);
     }
 
+    private void ReduceAttempts() {
+        --_attempt;
+        if (_attempt == 0)
+            this.blockUser();
+    }
+
+    private void RestoreAttempts() {
+        _attempt = MAX_NUMBER_ATTEMPTS;
+    }
+
     @Override
     public boolean IsCorrectLogin(String enteredLogin) {
         boolean incorrectLogin = _login.equals(enteredLogin);
@@ -91,15 +101,8 @@ public class User implements IUser {
         return _password.equals(enteredPassword);
     }
 
-    @Override
-    public void ReduceAttempts() {
-        --_attempt;
-        if (_attempt == 0)
-            this.blockUser();
-    }
+    /*@Override
+    public void LogIn(String enteredLogin, String enteredPassword) {
 
-    @Override
-    public void RestoreAttempts() {
-        _attempt = MAX_NUMBER_ATTEMPTS;
-    }
+    }*/
 }

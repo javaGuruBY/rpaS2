@@ -50,28 +50,4 @@ public class IUserTest {
 
         Assert.assertEquals(expected, actual);
     }
-
-    @Test
-    public void ReduceAttemptsTest() {
-        User user = new User("Login", "Password");
-        user.set_attempt(3);
-
-        int expected = 2;
-        user.ReduceAttempts();
-        int actual = user.get_attempt();
-
-        Assert.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void RestoreAttemptsTest() {
-        User user = new User("Login", "Password");
-        user.set_attempt(1);
-
-        int expected = 3;
-        user.RestoreAttempts();
-        int actual = user.get_attempt();
-
-        Assert.assertEquals(expected, actual);
-    }
 }
