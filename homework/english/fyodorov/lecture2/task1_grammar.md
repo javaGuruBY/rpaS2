@@ -11,22 +11,22 @@
 9. Since we started doing this exercise, we have completed some sentences.
 10. I have never been to Italy.
 ### Упражнение 2. Put the verbs in brackets in the Past Simple or in the Present Perfect.
-You (ever work) ______ in a shop?
-I (work) ______ at my uncle’s shop when I was younger.
-It’s the first time I (be) ______ on a ship.
-Ann is looking for her key. She can’t find it. She (lose) ______ her key.
-How many symphonies Beethoven (compose) ______?
-Look! Somebody (spill) ______ ink on the notebook.
-You (have) ______ a holiday this year yet?
-You (see) ______ any good films recently?
-He (have, not) ______ any problems since he (come ) ______ here.
+1. Have You ever worked in a shop?
+2. I  have worked at my uncle’s shop when I was younger.
+3. It’s the first time I have been on a ship.
+4. Ann is looking for her key. She can’t find it. She has lost her key.
+5. How many symphonies has Beethoven composed?
+6. Look! Somebody has spilt ink on the notebook.
+7. Have You had a holiday this year yet?
+8. Have You seen any good films recently?
+9. He hasn't had any problems since he came here.
 ### Упражнение 3. Раскройте скобки, употребляя глаголы в Past Simple или Present Perfect
-I (cut) ______ some flowers from my garden yesterday. I (cut) ______ lots of flowers from my garden so far this summer.
-I (not / see) ______ Tom lately.
-The artist (draw) ______ a picture of sunset yesterday. She (draw) ______ many pictures of sunsets in her lifetime.
-I (feed) ______ birds at the park yesterday. I (feed) ______ birds at the park every day since I (lose) ______ my job.
-Ann (wake up) ______ late and (miss) _______ her breakfast on Monday.
-I (forget) ______ to turn off the stove after dinner. I (forget) ______ to turn off the stove a lot of times in my lifetime.
-The children (hide) ______ in the basement yesterday. They (hide) ______ in the basement often since they (discover) ______ a secret place there.
-The baseball player (hit) ______ the ball out of the stadium yesterday. He (hit) ______ a lot of homeruns since he (join) ______ our team.
-We first (meet) ______ in 2001. So we (know) _______ each other for 8 years.
+1. I cut some flowers from my garden yesterday. I have cut lots of flowers from my garden so far this summer.
+2. I haven't seen Tom lately.
+3. The artist drew a picture of sunset yesterday. She drew many pictures of sunsets in her lifetime.
+4. I fed birds at the park yesterday. I have fed birds at the park every day since I lost my job.
+5. Ann woke up late and mis er breakfast on Monday.
+6. I have forgotten to turn off the stove after dinner. I forgot to turn off the stove a lot of times in my lifetime.
+7. The children hid in the basement yesterday. They have hidden in the basement often since they discovered a secret place there.
+8. The baseball player hit the ball out of the stadium yesterday. He has hit a lot of homeruns since he joined our team.
+9. We first met in 2001. So we have known each other for 8 years.
