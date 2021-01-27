@@ -103,4 +103,38 @@ public class LoginServiceTest {
         return user;
     }
 
+    @Test
+    public void restoreAttempts(){
+        user.setLoginAttempts(1);
+        loginService.restoreAttempts(user);
+        Assert.assertEquals(3, user.getLoginAttempts());
+    }
+
+    @Test
+    public void after1Incorrect_shouldRestoreAttempts(){
+        loginService.login(user, negativeUserInput);
+        loginService.login(user,positiveUserInput);
+        Assert.assertEquals(3, user.getLoginAttempts());
+    }
+
+    @Test
+    public void after2Incorrect_shouldRestoreAttempts(){
+        loginService.login(user, negativeUserInput);
+        loginService.login(user, negativeUserInput);
+        loginService.login(user,positiveUserInput);
+        Assert.assertEquals(3, user.getLoginAttempts());
+    }
+
+    @Test
+    public void after3Incorrect_shouldRestoreAttempts(){
+        loginService.login(user, negativeUserInput);
+        loginService.login(user, negativeUserInput);
+        loginService.login(user, negativeUserInput);
+        loginService.login(user,positiveUserInput);
+        boolean actualResult =loginService.login(user, positiveUserInput);
+        Assert.assertEquals(0, user.getLoginAttempts());
+        Assert.assertTrue(user.isBlocked());
+        Assert.assertFalse(actualResult);
+    }
+
 }
