@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import by.jrr.bean.User;
 
+import javax.print.MultiDocPrintService;
+
 import static org.junit.Assert.*;
 
 public class IUserTest {
@@ -47,6 +49,18 @@ public class IUserTest {
 
         boolean expected = false;
         boolean actual = user.IsCorrectPassword(enteredPassword);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void ReduceAttemptsTest() {
+        User user = new User("Login", "Password");
+        user.set_attempt(3);
+
+        int expected = 2;
+        user.ReduceAttempts();
+        int actual = user.get_attempt();
 
         Assert.assertEquals(expected, actual);
     }
