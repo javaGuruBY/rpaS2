@@ -87,22 +87,32 @@ public class User implements IUser {
 
     @Override
     public boolean IsCorrectLogin(String enteredLogin) {
-        boolean incorrectLogin = _login.equals(enteredLogin);
-        if (!incorrectLogin)
-            this.ReduceAttempts();
-        else
-            this.RestoreAttempts();
-
-        return incorrectLogin;
+        return _login.equals(enteredLogin);
     }
 
     @Override
     public boolean IsCorrectPassword(String enteredPassword) {
-        return _password.equals(enteredPassword);
+        boolean isCorrectPassword = _password.equals(enteredPassword);
+        if (isCorrectPassword) {
+            this.RestoreAttempts();
+        }
+        else {
+            this.ReduceAttempts();
+        }
+        return isCorrectPassword;
     }
 
-    /*@Override
-    public void LogIn(String enteredLogin, String enteredPassword) {
-
-    }*/
+    @Override
+    public boolean LogIn(String enteredLogin, String enteredPassword) {
+        boolean isSuccessLogin = false;
+        if (!this._isBlocked) {
+            if (this.IsCorrectLogin(enteredLogin)) {
+                if (this.IsCorrectPassword(enteredPassword)) {
+                    System.out.println("You successfully login!");
+                    isSuccessLogin = true;
+                }
+            }
+        }
+        return isSuccessLogin;
+    }
 }

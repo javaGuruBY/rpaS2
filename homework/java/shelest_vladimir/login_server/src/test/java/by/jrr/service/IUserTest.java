@@ -50,4 +50,34 @@ public class IUserTest {
 
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void LogIn() {
+        User user = new User("Login", "Password");
+
+        String enteredLogin = "Login";
+        String enteredPassword = "Password";
+
+        String expected = "You successfully login!";
+        String actual;
+
+        if (!user.get_isBlocked()) {
+            if (user.IsCorrectLogin(enteredLogin)) {
+                if (user.IsCorrectPassword(enteredPassword)) {
+                    actual = "You successfully login!";
+                }
+                else {
+                    actual = "User has entered incorrect password!";
+                }
+            }
+            else {
+                actual = "User has entered incorrect login!";
+            }
+        }
+        else {
+            actual = "User is blocked!";
+        }
+
+        Assert.assertEquals(expected, actual);
+    }
 }
