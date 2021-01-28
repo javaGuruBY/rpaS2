@@ -35,4 +35,4 @@
 6. I (forget) ______  to turn off the stove after dinner. I (forget) ______  to turn off the stove a lot of times in my lifetime. ---- I forgot to turn off the stove after dinner. I have forgotten to turn off the stove a lot of times in my lifetime.
 7.  The children (hide) ______ in the basement yesterday. They (hide) ______  in the basement often since they (discover) ______  a secret place there. ----- The children hid in the basement yesterday. They have hidden in the basement often since they discovered a secret place there.
 8.  The baseball player (hit) ______ the ball out of the stadium yesterday. He (hit) ______ a lot of homeruns since he (join) ______  our team.  ---- The baseball player hit the ball out of the stadium yesterday. He has hit a lot of homeruns since he joined our team.
-9.  We first (meet) ______ in 2001. So we (know) _______  each other for 8 years. ----  We first met in 2001. So we have known each other for 8 years.
+9.  We first (meet) ______ in 2001. So we (know) _______  each other for 8 years. ----  We first met in 2001. So we have known each other for 8 years..
