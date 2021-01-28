@@ -26,7 +26,6 @@ public class LoginServiceTest {
         Assert.assertTrue(actualResult);
     }
 
-
     @Test
     public void checkUserPassword_negative() {
 
@@ -34,6 +33,20 @@ public class LoginServiceTest {
 
         boolean actualResult = loginService.checkUserPassword(user, userInput);
         Assert.assertFalse(actualResult);
+    }
+
+    @Test
+    public void reduceLoginAttemps() {
+        loginService.reduceLoginAttemps(user);
+        Assert.assertEquals(2, user.getLoginAttempts() );
+    }
+
+    @Test
+    public void login() {
+        String userInput = "password";
+
+        boolean actualResult = loginService.login(user, userInput);
+        Assert.assertTrue(actualResult);
     }
 
     private User getUser() {
