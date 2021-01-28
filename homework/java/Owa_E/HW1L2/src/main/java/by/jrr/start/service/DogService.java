@@ -1,5 +1,4 @@
 package by.jrr.start.service;
-
 import by.jrr.start.bean.Dog;
 
 public class DogService {
@@ -12,4 +11,12 @@ public class DogService {
     public String bark(){
         return dog.getName()+" BARK!";
     }
+    public double convertPriceToHrivna(double exchangeRate){
+        double convertToPrice = dog.getPrice()*exchangeRate;
+        if (convertToPrice>1000){
+            convertToPrice*=0.97;
+        }
+        return convertToPrice;
+    }
+
 }
