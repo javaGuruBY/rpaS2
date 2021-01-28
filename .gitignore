@@ -59,5 +59,7 @@ hs_err_pid*
 .idea/
 target/
 
+/.idea/
+.idea/workspace.xml
 
 lecturer/tgBot/src/main/resources/application.properties
