@@ -13,6 +13,6 @@ public class LoginService {
     }
 
     public boolean login(User user, String userInput) {
-        return checkUserPassword ;
+        return checkUserPassword(user, userInput);
     }
 }
