@@ -58,6 +58,8 @@ hs_err_pid*
 *.iml
 .idea/
 target/
+.idea/workspace.xml
+
 
 /.idea/
 .idea/workspace.xml
