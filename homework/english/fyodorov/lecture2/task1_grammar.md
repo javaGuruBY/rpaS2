@@ -25,7 +25,7 @@
 2. I haven't seen Tom lately.
 3. The artist drew a picture of sunset yesterday. She drew many pictures of sunsets in her lifetime.
 4. I fed birds at the park yesterday. I have fed birds at the park every day since I lost my job.
-5. Ann woke up late and mis er breakfast on Monday.
+5. Ann woke up late and missed her breakfast on Monday.
 6. I have forgotten to turn off the stove after dinner. I forgot to turn off the stove a lot of times in my lifetime.
 7. The children hid in the basement yesterday. They have hidden in the basement often since they discovered a secret place there.
 8. The baseball player hit the ball out of the stadium yesterday. He has hit a lot of homeruns since he joined our team.
