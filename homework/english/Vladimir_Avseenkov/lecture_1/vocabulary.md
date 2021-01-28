@@ -2,34 +2,34 @@
 
 ### Напишите по 1 предложению к каждому слову из лексического блока в 1 уроке (слова есть в презентации).
 
-###My phone is booting now
+My phone is booting now
 
-###I have done my homework
+I have done my homework
 
-###Nokia. Connecting people
+Nokia. Connecting people
 
-###F**k off. I'm debugging now
+F**k off. I'm debugging now
 
-###Who delete my pool request?
+Who delete my pool request?
 
-###I love developing!
+I love developing!
 
-###I disable this feature because it's disconnecting our clients
+I disable this feature because it's disconnecting our clients
 
-###We need to display alert if this s**t happens again
+We need to display alert if this s**t happens again
 
-###Enable Proxy or VPN to watch this site
+Enable Proxy or VPN to watch this site
 
-###Please, execute my malware!
+Please, execute my malware!
 
-###We need to implement new technologies
+We need to implement new technologies
 
-###Ho has installed this mainer on the main server?
+Ho has installed this mainer on the main server?
 
-###Plug in a plug'n'play device to USB port
+Plug in a plug'n'play device to USB port
 
-###You need to restore to factory settings
+You need to restore to factory settings
 
-###Uninstall your games before you start developing
+Uninstall your games before you start developing
 
-###This update improves something and upgrade verifying status
+This update improves something and upgrade verifying status
