@@ -28,19 +28,19 @@ public class LoginServiceTest {
 
     @Test
     public void checkUserPasswordTrueTest() {
-        boolean actualResult = test.checkUserPassword(user, positiveInputPassword);
+        boolean actualResult = test.login(user, positiveInputPassword);
         Assert.assertTrue(actualResult);
     }
 
     @Test
     public void checkUserPasswordFalseTest() {
-        boolean actualResult = test.checkUserPassword(user, negativeInputPassword);
+        boolean actualResult = test.login(user, negativeInputPassword);
         Assert.assertFalse(actualResult);
     }
 
     @Test
-    public void reduceLoginAttempts() {
-        test.reduceLoginAttempts(user);
+    public void reduceLoginAttemptsTest() {
+        test.login(user, negativeInputPassword);
         Assert.assertEquals(2, user.getLoginAttempts());
     }
 
@@ -59,12 +59,13 @@ public class LoginServiceTest {
 
     @Test
     public void blockUserTest() {
-        test.blockUser(user);
+        user.setLoginAttempts(1);
+        test.login(user, negativeInputPassword);
         Assert.assertTrue(user.isBlocked());
     }
 
     @Test
-    public void after3WrongPasswords_ShouldBlockUser() {
+    public void after3WrongPasswords_ShouldBlockUserTest() {
         test.login(user, negativeInputPassword);
         Assert.assertEquals(2, user.getLoginAttempts());
         Assert.assertFalse(user.isBlocked());
@@ -80,27 +81,27 @@ public class LoginServiceTest {
     }
 
     @Test
-    public void blockedUserLogin_ShouldReturnFalse() {
+    public void blockedUserLogin_ShouldReturnFalseTest() {
         boolean actualResult = test.login(blockedUser, positiveInputPassword);
         Assert.assertFalse(actualResult);
     }
 
     @Test
-    public void restoreAttempts() {
+    public void restoreAttemptsTest() {
         user.setLoginAttempts(1);
-        test.restoreAttempts(user);
+        test.login(user, positiveInputPassword);
         Assert.assertEquals(3, user.getLoginAttempts());
     }
 
     @Test
-    public void after1Incorrect_ShouldRestoreAttempts() {
+    public void after1Incorrect_ShouldRestoreAttemptsTest() {
         test.login(user, negativeInputPassword);
         test.login(user, positiveInputPassword);
         Assert.assertEquals(3, user.getLoginAttempts());
     }
 
     @Test
-    public void after2Incorrect_ShouldRestoreAttempts() {
+    public void after2Incorrect_ShouldRestoreAttemptsTest() {
         test.login(user, negativeInputPassword);
         test.login(user, negativeInputPassword);
         test.login(user, positiveInputPassword);
@@ -108,7 +109,7 @@ public class LoginServiceTest {
     }
 
     @Test
-    public void after3Incorrect_ShouldRestoreAttempts() {
+    public void after3Incorrect_ShouldRestoreAttemptsTest() {
         test.login(user, negativeInputPassword);
         test.login(user, negativeInputPassword);
         test.login(user, negativeInputPassword);
