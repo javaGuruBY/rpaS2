@@ -24,7 +24,7 @@ public class DogServiceTest {
         Dog dog = new Dog ();
         dog.setPrice (300);
         double exchangeRate = 2.54;
-        double expected = 762; //762
+        double expected = 762;
 
         DogService dogService = new DogService(dog);
         double actual = dogService.convertPriceToBelarus(exchangeRate);
@@ -35,11 +35,10 @@ public class DogServiceTest {
         Dog dog = new Dog ();
         dog.setPrice (1200);
         double exchangeRate = 2.54;
-        double expected = 2956.56; //3048
+        double expected = 2956.56;
 
         DogService dogService = new DogService(dog);
         double actual = dogService.convertPriceToBelarus(exchangeRate);
         Assert.assertEquals(expected, actual, 0.01);
     }
-
 }
