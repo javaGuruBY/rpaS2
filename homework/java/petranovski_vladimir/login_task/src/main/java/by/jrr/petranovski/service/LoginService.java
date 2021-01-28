@@ -9,10 +9,13 @@ public class LoginService {
     }
 
     public void reduceLoginAttempts(User user) {
-        user.setLoginAttempts(user.getLoginAttempts() -1);
+        user.setLoginAttempts(user.getLoginAttempts() - 1);
     }
 
     public boolean login(User user, String userInput) {
+        if (user.isBlocked()) {
+            return false;
+        }
         if (user.getLoginAttempts() == 1) {
             blockUser(user);
         }
