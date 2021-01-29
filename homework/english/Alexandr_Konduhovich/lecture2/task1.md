@@ -18,7 +18,7 @@ Is Jim going to eat lunch with us today? — No. He (eat) ______ (already).He (e
 Since we (start) ______ doing this exercise, we (complete) ______ some sentences.
 ### Since we have started doing this exercise, we have completed some sentences.
 I (be) never to Italy.
-### I haven’t been never to Italy.
+### I have never been  to Italy.
 
 ## Упражнение 2. Put the verbs in brackets in the Past Simple or in the Present Perfect.
 You (ever work) ______ in a shop?
