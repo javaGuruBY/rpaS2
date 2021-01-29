@@ -12,7 +12,7 @@ I (go) ______ to Paris in 2003 and 2006.
 A car came round the corner and I (jump) ______ out of the way.
 ### A car came round the corner and I jumped out of the way.
 Don’t throw the paper away because I (not to read) ______ it yet.
-### Don’t throw the paper away because I didn’t read it yet.
+### Don’t throw the paper away because I haven’t read it yet.
 Is Jim going to eat lunch with us today? — No. He (eat) ______ (already).He (eat) ______ lunch an hour ago.
 ### Is Jim going to eat lunch with us today? — No. He has eaten already. He ate lunch an hour ago.
 Since we (start) ______ doing this exercise, we (complete) ______ some sentences.
