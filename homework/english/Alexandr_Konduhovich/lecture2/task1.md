@@ -1,6 +1,6 @@
 ## Упражнение 1. Put the verbs in brackets in the Past Simple or in the Present Perfect.
 I (have, just) ______ a nice pot of coffee. Would you like a cup?
-### I have just a nice pot of coffee. Would you like a cup?
+### I have had just a nice pot of coffee. Would you like a cup?
 I (see, not) ______ Steve this morning yet.
 ### I hadn’t seen Steve this morning yet.
 Carol and I are old friends. I (know) ______ her since I (be) ______ a freshman in high school.
