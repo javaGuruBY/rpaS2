@@ -2,7 +2,7 @@
 I (have, just) ______ a nice pot of coffee. Would you like a cup?
 ### I have had just a nice pot of coffee. Would you like a cup?
 I (see, not) ______ Steve this morning yet.
-### I hadn’t seen Steve this morning yet.
+### I haven’t seen Steve this morning yet.
 Carol and I are old friends. I (know) ______ her since I (be) ______ a freshman in high school.
 ### Carol and I are old friends. I have known her since I was a freshman in high school.
 Maria (have) ______ a lot of problems since she (come) ______ to this country.
