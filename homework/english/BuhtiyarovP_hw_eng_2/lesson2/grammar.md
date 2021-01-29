@@ -4,7 +4,7 @@
 
 1. I (have, just) ______   a nice pot of coffee. Would you like a cup?  ---   I have just had a nice pot of coffee. Would you like a cup?
 2. I (see, not) ______   Steve this morning yet. --- I haven't seen Steve this morning yet.
-3.  Carol and I are old friends. I (know) ______   her since I (be) ______   a freshman in high school. --- Carol and I are old friends. I have known her since I were a freshman in high school.
+3.  Carol and I are old friends. I (know) ______   her since I (be) ______   a freshman in high school. --- Carol and I are old friends. I have known her since I was a freshman in high school.
 4.  Maria (have) ______   a lot of problems since she (come) ______   to this country. --- Maria has had a lot of problems since she came to this country. 
 5. I  (go) ______  to Paris in 2003 and 2006. --- I went to Paris in 2003 and 2006.
 6.  A car came round the corner and I (jump) ______   out of the way. --- A car came round the corner and I jumped out of the way.
