@@ -3,35 +3,48 @@ package ZhdanokLA.service;
 import ZhdanokLA.bean.User;
 
 public class LoginService {
-    public boolean checkUserPassword(User user, String userInput) {
+
+    public boolean login(User user, String userInput) {
+        if (!user.isBlocked()) {
+            boolean result = checkUserPassword(user, userInput);
+            updateUserStatus(user, result);
+            return result;
+        }
+            return  false;
+
+    }
+
+    private void updateUserStatus(User user, boolean result) {
+        if (result) {
+            restoreAttempts(user);
+        } else {
+            blockIfLoginAttamptExeeded(user);
+        }
+    }
+
+    private void blockIfLoginAttamptExeeded(User user) {
+        reduceLoginAttemps(user);
+        if (user.getLoginAttempts() == 0) {
+            blockUser(user);
+        }
+    }
+
+    private boolean checkUserPassword(User user, String userInput) {
         return user.getPassword().equals(userInput);
     }
 
-    public void reduceLoginAttemps(User user) {
+    private void reduceLoginAttemps(User user) {
         user.setLoginAttempts(user.getLoginAttempts()-1);
 
     }
 
-    public boolean login(User user, String userInput) {
-        if (user.isBlocked()) {
-            return false;
-        }
-        if (user.getLoginAttempts() == 1) {
-            blockUser(user);
-        }
-        reduceLoginAttemps(user);
-        boolean result = checkUserPassword(user, userInput);
-        if (result) {
-            restoreAttempts(user);
-        }
-        return checkUserPassword(user, userInput);
-    }
 
-    public void blockUser(User user) {
+
+    private void blockUser(User user) {
         user.setBlocked(true);
     }
 
-    public void restoreAttempts(User user) {
+    private void restoreAttempts(User user) {
         user.setLoginAttempts(3);
 
     }
