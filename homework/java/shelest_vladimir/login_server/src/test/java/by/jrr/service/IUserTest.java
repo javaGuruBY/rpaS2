@@ -17,6 +17,25 @@ public class IUserTest {
     }
 
     @Test
+    public void incorrect_LogIn_Test() {
+        User user = new User("Login", "Password");
+        UserService service = new UserService();
+        boolean expected = false;
+        boolean actual;
+
+        user.blockUser();
+        actual = service.logIn(user, "Login", "Password");
+        Assert.assertEquals(expected, actual);
+        user.unblockUser();
+
+        actual = service.logIn(user, "IncorrectLogin", "Password");
+        Assert.assertEquals(expected, actual);
+
+        actual = service.logIn(user, "Login", "IncorrectPassword");
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
     public void reduceAttempts_WhenUserShouldBeBlocked_Test() {
         User user = new User("Login", "Password");
         UserService service = new UserService();
@@ -42,4 +61,6 @@ public class IUserTest {
 
         Assert.assertEquals(expected, actual);
     }
+
+
 }
