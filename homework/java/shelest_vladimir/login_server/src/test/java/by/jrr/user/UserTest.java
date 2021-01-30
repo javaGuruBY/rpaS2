@@ -33,13 +33,26 @@ public class UserTest {
     }
 
     @Test
-    public void equals_Not_Test() {
+    public void equals_AnotherUser_Test() {
         User user = new User("Login", "Password");
         User anotherUser = new User("AnotherLogin", "Password");
 
         boolean expected = false;
         boolean actual = user.equals(anotherUser);
 
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void failedEquales_NullOrOtherType_Test() {
+        User user = new User("Login", "Password");
+        boolean expected = false;
+
+        boolean actual = user.equals(null);
+        Assert.assertEquals(expected, actual);
+
+        int anotherType = 1;
+        actual = user.equals(anotherType);
         Assert.assertEquals(expected, actual);
     }
 
