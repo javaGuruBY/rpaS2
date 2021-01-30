@@ -1,6 +1,6 @@
-package ZhdanokLA.service;
+package zhdanokla.service;
 
-import ZhdanokLA.bean.User;
+import zhdanokla.bean.User;
 
 public class LoginService {
 
