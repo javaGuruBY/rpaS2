@@ -44,6 +44,16 @@ public class UserTest {
     }
 
     @Test
+    public void equalsWithSameUser_Test() {
+        User user = new User("Login", "Password");
+
+        boolean expected = true;
+        boolean actual = user.equals(user);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
     public void failedEquales_NullOrOtherType_Test() {
         User user = new User("Login", "Password");
         boolean expected = false;
