@@ -8,12 +8,10 @@ public class IUserTest {
     @Test
     public void LogIn() {
         User user = new User("Login", "Password");
-
-        String enteredLogin = "Login";
-        String enteredPassword = "Password";
+        UserService service = new UserService(user);
 
         boolean expected = true;
-        boolean actual = user.LogIn("Login", "Password");
+        boolean actual = service.logIn("Login", "Password");
 
         Assert.assertEquals(expected, actual);
     }
