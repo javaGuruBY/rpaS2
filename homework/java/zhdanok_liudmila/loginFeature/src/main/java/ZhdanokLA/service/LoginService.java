@@ -1,6 +1,6 @@
-package by.jrr.service;
+package ZhdanokLA.service;
 
-import by.jrr.bean.User;
+import ZhdanokLA.bean.User;
 
 public class LoginService {
     public boolean checkUserPassword(User user, String userInput) {
@@ -13,6 +13,7 @@ public class LoginService {
     }
 
     public boolean login(User user, String userInput) {
+        reduceLoginAttemps(user);
         return checkUserPassword(user, userInput);
     }
 }

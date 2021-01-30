@@ -1,4 +1,4 @@
-package by.jrr.start;
+package ZhdanokLA;
 
 public class Application {
 

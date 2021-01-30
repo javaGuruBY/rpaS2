@@ -1,6 +1,6 @@
-package by.jrr.service;
+package ZhdanokLA.service;
 
-import by.jrr.bean.User;
+import ZhdanokLA.bean.User;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -38,15 +38,24 @@ public class LoginServiceTest {
     @Test
     public void reduceLoginAttemps() {
         loginService.reduceLoginAttemps(user);
-        Assert.assertEquals(2, user.getLoginAttempts() );
+        Assert.assertEquals(2, user.getLoginAttempts());
     }
 
     @Test
-    public void login() {
+    public void login_positive() {
         String userInput = "password";
 
         boolean actualResult = loginService.login(user, userInput);
         Assert.assertTrue(actualResult);
+    }
+
+    @Test
+    public void login_negative() {
+        String userInput = "wrong";
+
+        boolean actualResult = loginService.login(user, userInput);
+        Assert.assertFalse(actualResult);
+        Assert.assertEquals(2, user.getLoginAttempts());
     }
 
     private User getUser() {

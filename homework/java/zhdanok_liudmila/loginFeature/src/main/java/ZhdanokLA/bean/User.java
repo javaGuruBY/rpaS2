@@ -1,4 +1,4 @@
-package by.jrr.bean;
+package ZhdanokLA.bean;
 
 import java.util.Objects;
 //POJO
