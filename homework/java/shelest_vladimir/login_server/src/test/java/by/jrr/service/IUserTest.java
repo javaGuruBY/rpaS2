@@ -61,6 +61,4 @@ public class IUserTest {
 
         Assert.assertEquals(expected, actual);
     }
-
-
 }
