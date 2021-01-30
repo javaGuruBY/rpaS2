@@ -1,6 +1,7 @@
 package AntonHar;
 
 public class Multiplication {
+
     private int a;
     private int b;
 
@@ -10,6 +11,10 @@ public class Multiplication {
     }
 
     public int catculate(){
+        return a * b;
+    }
+
+    public int chek (int multChek){
         return a * b;
     }
 }
