@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import by.jrr.bean.User;
 
-public class IUserTest {
+public class UserServiceTest {
     @Test
     public void logInTest() {
         User user = new User("Login", "Password");
