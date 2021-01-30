@@ -1,6 +1,8 @@
 package by.jrr.service;
 
+import by.jrr.bean.User;
+
 public interface IUserService {
-    boolean logIn(String enteredLogin, String enteredPassword);
+    boolean logIn(User user, String enteredLogin, String enteredPassword);
 }
 

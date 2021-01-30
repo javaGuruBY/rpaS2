@@ -7,8 +7,8 @@ public class Application {
 
     public static void main(String[] args) {
         User user = new User("Login", "Password");
+        UserService service = new UserService();
 
-        UserService service = new UserService(user);
-        service.logIn("Login", "Password");
+        service.logIn(user, "Login", "Password");
     }
 }

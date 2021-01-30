@@ -44,8 +44,8 @@ public class User {
         return mBlocked;
     }
 
-    public  void blockUser() {
-        this.mBlocked = false;
+    public void blockUser() {
+        this.mBlocked = true;
     }
 
     @Override

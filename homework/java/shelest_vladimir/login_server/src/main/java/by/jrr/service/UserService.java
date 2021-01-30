@@ -3,43 +3,38 @@ package by.jrr.service;
 import by.jrr.bean.User;
 
 public class UserService implements IUserService {
-    private User mUser;
 
-    public UserService(User user) {
-        mUser = new User(user);
+    private void reduceAttempts(User user) {
+        user.setAttempt(user.getAttempt() - 1);
+        if (user.getAttempt() <= 0)
+            user.blockUser();
     }
 
-    private void reduceAttempts() {
-        mUser.setAttempt(mUser.getAttempt() - 1);
-        if (mUser.getAttempt() <= 0)
-            mUser.blockUser();
+    private void restoreAttempts(User user) {
+        user.setAttempt(User.MAX_NUMBER_ATTEMPTS);
     }
 
-    private void restoreAttempts() {
-        mUser.setAttempt(User.MAX_NUMBER_ATTEMPTS);
+    private boolean isCorrectLogin(User user, String enteredLogin) {
+        return user.getLogin().equals(enteredLogin);
     }
 
-    private boolean isCorrectLogin(String enteredLogin) {
-        return mUser.getLogin().equals(enteredLogin);
-    }
-
-    private boolean isCorrectPassword(String enteredPassword) {
-        boolean isCorrect = mUser.getPassword().equals(enteredPassword);
+    private boolean isCorrectPassword(User user, String enteredPassword) {
+        boolean isCorrect = user.getPassword().equals(enteredPassword);
         if (isCorrect) {
-            this.restoreAttempts();
+            this.restoreAttempts(user);
         }
         else {
-            this.reduceAttempts();
+            this.reduceAttempts(user);
         }
         return isCorrect;
     }
 
     @Override
-    public boolean logIn(String enteredLogin, String enteredPassword) {
+    public boolean logIn(User user, String enteredLogin, String enteredPassword) {
         boolean isSuccessLogin = false;
-        if (!mUser.getBlocked() &&
-                this.isCorrectLogin(enteredLogin) &&
-                this.isCorrectPassword(enteredPassword)) {
+        if (!user.getBlocked() &&
+                this.isCorrectLogin(user, enteredLogin) &&
+                this.isCorrectPassword(user, enteredPassword)) {
             System.out.println("You successfully login!");
             isSuccessLogin = true;
         }
