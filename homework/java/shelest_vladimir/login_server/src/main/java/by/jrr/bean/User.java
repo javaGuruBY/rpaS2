@@ -46,6 +46,12 @@ public class User {
 
     public void blockUser() {
         this.mBlocked = true;
+        this.mAttempt = 0;
+    }
+
+    public void unblockUser() {
+        this.mBlocked = false;
+        this.mAttempt = MAX_NUMBER_ATTEMPTS;
     }
 
     @Override
