@@ -17,7 +17,7 @@ public class IUserTest {
     }
 
     @Test
-    public void reduceAttemptsTest() {
+    public void reduceAttempts_WhenUserShouldBeBlocked_Test() {
         User user = new User("Login", "Password");
         UserService service = new UserService();
 
@@ -30,5 +30,16 @@ public class IUserTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void reduceAttempts_WhenUserNotShouldBeBlocked_Test() {
+        User user = new User("Login", "Password");
+        UserService service = new UserService();
 
+        service.logIn(user, "Login", "IncorrectPassword");
+
+        boolean expected = false;
+        boolean actual = user.getBlocked();
+
+        Assert.assertEquals(expected, actual);
+    }
 }
