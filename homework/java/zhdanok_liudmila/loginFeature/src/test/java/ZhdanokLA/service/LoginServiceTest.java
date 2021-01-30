@@ -86,6 +86,39 @@ public class LoginServiceTest {
         Assert.assertFalse(actualResult);
     }
 
+    @Test
+    public void restoreAttempts() {
+        user.setLoginAttempts(1);
+        loginService.restoreAttempts(user);
+        Assert.assertEquals(3, user.getLoginAttempts());
+    }
+
+    @Test
+    public void after1Incorrect_shouldRestoreAttempts() {
+        loginService.login(user, negative_userInput);
+        loginService.login(user, positive_userInput);
+        Assert.assertEquals(3, user.getLoginAttempts());
+    }
+
+    @Test
+    public void after2Incorrect_shouldRestoreAttempts() {
+        loginService.login(user, negative_userInput);
+        loginService.login(user, negative_userInput);
+        loginService.login(user, positive_userInput);
+        Assert.assertEquals(3, user.getLoginAttempts());
+    }
+
+    @Test
+    public void after3Incorrect_shouldRestoreAttempts() {
+        loginService.login(user, negative_userInput);
+        loginService.login(user, negative_userInput);
+        loginService.login(user, negative_userInput);
+        boolean actualResult = loginService.login(user, positive_userInput);
+        Assert.assertEquals(0, user.getLoginAttempts());
+        Assert.assertTrue(user.isBlocked());
+        Assert.assertFalse(actualResult);
+    }
+
     private User getUser() {
         User user = new User();
         user.setPassword("password");
