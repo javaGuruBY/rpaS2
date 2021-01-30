@@ -57,10 +57,10 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "_login='" + mLogin + '\'' +
-                ", _password='" + mPassword + '\'' +
-                ", _attempt=" + mAttempt +
-                ", _isBlocked=" + mBlocked +
+                "login = '" + mLogin + '\'' +
+                ", password = '" + mPassword + '\'' +
+                ", attempt = " + mAttempt +
+                ", is blocked = " + mBlocked +
                 '}';
     }
 
