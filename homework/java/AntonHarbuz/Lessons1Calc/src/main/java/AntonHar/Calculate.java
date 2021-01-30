@@ -1,7 +1,8 @@
 package AntonHar;
 
 public class Calculate {
-    public static double calculate (int a, int b, String command){
+
+    public static double calculate(int a, int b, String command){
         double result = 0.0;
         switch (command){
             case "add":
