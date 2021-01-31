@@ -14,6 +14,9 @@ public class LoginService {
     }
 
     public boolean login(User user, String userInput) {
+        if(user.isBlocked()){
+            return false;
+        }
         if (user.getLoginAttempts() == 1) {
             blockUser(user);
         }
