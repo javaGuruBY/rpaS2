@@ -61,5 +61,7 @@ target/
 .idea/workspace.xml
 
 
+/.idea/
+.idea/workspace.xml
 
 lecturer/tgBot/src/main/resources/application.properties
