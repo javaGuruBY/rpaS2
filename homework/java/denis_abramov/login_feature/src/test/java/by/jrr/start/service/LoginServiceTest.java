@@ -8,14 +8,16 @@ import by.jrr.start.bean.User;
 
 public class LoginServiceTest {
     LoginService loginService;
+    User user;
     @Before
     public void setUp() {
         this.loginService = new LoginService();
+        this.user = getUser();
+        Assert.assertEquals( 3, user.getLoginAttempts());
     }
 
     @Test
     public void checkUserPassword_positive() {
-        User user = getUser();
 
         String userInput = "password";
 
@@ -26,15 +28,10 @@ public class LoginServiceTest {
 
     }
 
-    private User getUser() {
-        User user = new User();
-        user.setPassword("password");
-        return user;
-    }
+
 
     @Test
     public void checkUserPassword_negative() {
-        User user = getUser();
 
         String userInput = "wrong";
 
@@ -43,6 +40,11 @@ public class LoginServiceTest {
 
 
 
+    }
+    private User getUser() {
+        User user = new User();
+        user.setPassword("password");
+        return user;
     }
 
 }
