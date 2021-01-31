@@ -1,4 +1,4 @@
-package by.jrr.start;
+package by.jrr;
 
 public class Application {
 
