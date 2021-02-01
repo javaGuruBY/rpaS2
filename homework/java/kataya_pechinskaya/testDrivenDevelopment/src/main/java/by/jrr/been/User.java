@@ -9,7 +9,7 @@ public class User {
     private int loginAttemps;
     private boolean blocked;
 
-    public User(String login, String password, int loginAttemps, boolean blocked) {
+    public User() {
         this.login = login;
         this.password = password;
         this.loginAttemps = loginAttemps;
