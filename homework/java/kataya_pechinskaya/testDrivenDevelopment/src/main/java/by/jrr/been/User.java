@@ -6,7 +6,7 @@ public class User {
     //Playing all java Objeck
     private String login;
     private String password;
-    private int loginAttemps;
+    private int loginAttemps = 3;
     private boolean blocked;
 
     public User() {
