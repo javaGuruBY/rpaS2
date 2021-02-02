@@ -41,12 +41,12 @@ public class LoginServiceTest {
 
     @Test
     public void reduceLoginAttempts(){
-        loginService.reduceLoginAttempts(user);
+        loginService.login(user, negativeUserInput);
         Assert.assertEquals(2, user.getLoginAttemps());
     }
     @Test
     public  void login_positive(){
-        boolean actualResult = loginService.checkUserPassword(user, positiveUserInput);
+        boolean actualResult = loginService.login(user, positiveUserInput);
         Assert.assertTrue(actualResult);
     }
     @Test
@@ -57,7 +57,8 @@ public class LoginServiceTest {
     }
     @Test
     public void blockUser(){
-        loginService.blockUser(user);
+        user.setLoginAttemps(1);
+        loginService.login(user, negativeUserInput);
         Assert.assertTrue(user.isBlocked());
     }
     @Test
@@ -82,7 +83,7 @@ public class LoginServiceTest {
     @Test
     public void restoreAttempts(){
         user.setLoginAttemps(1);
-        loginService.restoreAttempts(user);
+        loginService.login(user, positiveUserInput);
         Assert.assertEquals(3, user.getLoginAttemps());
     }
     @Test

@@ -1,7 +1,7 @@
 ##User
 1. login
 1. password
-1. loginAttemps
+1. loginAttempts
 1. blocked
 
 ##Операция проверки доступа в учетную запись
