@@ -65,3 +65,5 @@ target/
 .idea/workspace.xml
 
 lecturer/tgBot/src/main/resources/application.properties
+
+homework/java/SkibaOlga/telegram_Bot/src/main/resources/application.properties
