@@ -1,0 +1,42 @@
+{
+  "update_id": 783234962,
+  "message": {
+    "chatId": 447993869,
+    "superGroupMessage": false,
+    "groupMessage": false,
+    "channelMessage": false,
+    "userMessage": true,
+    "command": true,
+    "reply": false,
+    "message_id": 2,
+    "from": {
+      "bot": false,
+      "id": 447993869,
+      "first_name": "Alexandr",
+      "is_bot": false,
+      "last_name": "Ryabyi",
+      "username": "svoboda_slovaa",
+      "language_code": "ru"
+    },
+    "date": 1612255888,
+    "chat": {
+      "channelChat": false,
+      "groupChat": false,
+      "superGroupChat": false,
+      "userChat": true,
+      "id": 447993869,
+      "type": "private",
+      "first_name": "Alexandr",
+      "last_name": "Ryabyi",
+      "username": "svoboda_slovaa"
+    },
+    "text": "/settings",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}
