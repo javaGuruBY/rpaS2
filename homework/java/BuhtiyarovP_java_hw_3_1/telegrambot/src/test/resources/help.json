@@ -1,0 +1,40 @@
+{
+  "update_id": 234930674,
+  "message": {
+    "chatId": 947303898,
+    "channelMessage": false,
+    "userMessage": true,
+    "command": true,
+    "reply": false,
+    "groupMessage": false,
+    "superGroupMessage": false,
+    "message_id": 4,
+    "from": {
+      "bot": false,
+      "id": 947303898,
+      "first_name": "Pavel",
+      "is_bot": false,
+      "last_name": "Bukhtsiyarau",
+      "language_code": "ru"
+    },
+    "date": 1612126463,
+    "chat": {
+      "groupChat": false,
+      "superGroupChat": false,
+      "userChat": true,
+      "channelChat": false,
+      "id": 947303898,
+      "type": "private",
+      "first_name": "Pavel",
+      "last_name": "Bukhtsiyarau"
+    },
+    "text": "/help",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}
