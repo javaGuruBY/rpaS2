@@ -1,0 +1,38 @@
+{
+  "update_id": 33366227,
+  "message": {
+    "chatId": 467842524,
+    "superGroupMessage": false,
+    "groupMessage": false,
+    "userMessage": true,
+    "channelMessage": false,
+    "command": true,
+    "reply": false,
+    "message_id": 3,
+    "from": {
+      "bot": false,
+      "id": 467842524,
+      "first_name": "Денис",
+      "is_bot": false,
+      "language_code": "ru"
+    },
+    "date": 1612297236,
+    "chat": {
+      "groupChat": false,
+      "userChat": true,
+      "channelChat": false,
+      "superGroupChat": false,
+      "id": 467842524,
+      "type": "private",
+      "first_name": "Денис"
+    },
+    "text": "/settings",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}
