@@ -14,9 +14,9 @@
 12. После сдачи проекта он даст мне доступ к этим папкам. After submitting the project, he will give my access to these folders.
 13. Наша команда скоро начинает работать над новым проектом. Our team will soon start working on a new project.
 ## Упражнение 2. Образуйте вопрос к предложению
-Nina will be at school in 10 minutes. (Where)
-The competition will start tomorrow. (When)
-Ben will buy a new bicycle. (What)
-Sam will come soon. (Who)
-We will go to the cinema at 6 o’clock. (What time)
-They will fly to Australia next week. (Where)
+1. Nina will be at school in 10 minutes. Where will Nina be in 10 minutes?
+2. The competition will start tomorrow. When will the competition start?
+3. Ben will buy a new bicycle. What will Ben buy?
+4. Sam will come soon. Who will come soon?
+5. We will go to the cinema at 6 o’clock. What time will we go to the cinema?
+6. They will fly to Australia next week. Where will they fly next week?
