@@ -1,0 +1,38 @@
+{
+  "update_id": 655072063,
+  "message": {
+    "superGroupMessage": false,
+    "chatId": 689630144,
+    "command": true,
+    "groupMessage": false,
+    "userMessage": true,
+    "channelMessage": false,
+    "reply": false,
+    "message_id": 12,
+    "from": {
+      "bot": false,
+      "id": 689630144,
+      "first_name": "Anastasia",
+      "is_bot": false,
+      "language_code": "ru"
+    },
+    "date": 1612286824,
+    "chat": {
+      "channelChat": false,
+      "userChat": true,
+      "superGroupChat": false,
+      "groupChat": false,
+      "id": 689630144,
+      "type": "private",
+      "first_name": "Anastasia"
+    },
+    "text": "/help",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}

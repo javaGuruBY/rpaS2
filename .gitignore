@@ -65,4 +65,8 @@ target/
 .idea/workspace.xml
 
 lecturer/tgBot/src/main/resources/application.properties
+
+homework/java/anastasia_sheremet/tgBot/src/main/resources/application.properties
+
 homework/java/zhdanok_liudmila/tgBot/src/main/resources/application.properties
+
