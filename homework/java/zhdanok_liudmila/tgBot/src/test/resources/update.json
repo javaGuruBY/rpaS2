@@ -1,0 +1,42 @@
+{
+  "update_id": 960688771,
+  "message": {
+    "reply": false,
+    "groupMessage": false,
+    "userMessage": true,
+    "channelMessage": false,
+    "command": true,
+    "chatId": 972435376,
+    "superGroupMessage": false,
+    "message_id": 2,
+    "from": {
+      "bot": false,
+      "id": 972435376,
+      "first_name": "Людмила",
+      "is_bot": false,
+      "last_name": "Жданок",
+      "username": "Zhdanok_Liudmila",
+      "language_code": "ru"
+    },
+    "date": 1612188321,
+    "chat": {
+      "userChat": true,
+      "channelChat": false,
+      "groupChat": false,
+      "superGroupChat": false,
+      "id": 972435376,
+      "type": "private",
+      "first_name": "Людмила",
+      "last_name": "Жданок",
+      "username": "Zhdanok_Liudmila"
+    },
+    "text": "/hello",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}
