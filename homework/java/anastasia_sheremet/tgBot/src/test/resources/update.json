@@ -1,0 +1,38 @@
+{
+  "update_id": 655072063,
+  "message": {
+    "chatId": 689630144,
+    "superGroupMessage": false,
+    "channelMessage": false,
+    "groupMessage": false,
+    "reply": false,
+    "userMessage": true,
+    "command": true,
+    "message_id": 12,
+    "from": {
+      "bot": false,
+      "id": 689630144,
+      "first_name": "Anastasia",
+      "is_bot": false,
+      "language_code": "ru"
+    },
+    "date": 1612286824,
+    "chat": {
+      "groupChat": false,
+      "channelChat": false,
+      "userChat": true,
+      "superGroupChat": false,
+      "id": 689630144,
+      "type": "private",
+      "first_name": "Anastasia"
+    },
+    "text": "Do no",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}
