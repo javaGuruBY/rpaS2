@@ -6,7 +6,7 @@
 2. На следующей неделе я пойду на собеседование в крупную IT-компанию. ---- I will go for an interview at a large IT company next week.
 3. Может быть, мне помочь тебе разобраться с установкой этого драйвера? --- Shell I help you figure it out how to install of this driver, may be?
 4. Я сохраню эти данные после окончания работы. --- I will save this data after finishing work.
-5. Я буду активно решать эту проблему в следующем месяце. --- I will actively decide this problem to next month.
+5. Я буду активно решать эту проблему в следующем месяце. --- I will actively solve a problem to next month.
 6. Стоит ли мне начать разработку э того приложения, чтобы облегчить принятие решения для наших клиентов? --- Should I start developing this application, to make the decision easier for our clients?
 7. Боюсь, я не смогу получить ожидаемый резуьтат завтра, мне нужно больше времени. ---- I'm afraid, I will not can to get the expected result tomorrow, I need more time.
 8. В следующий понедельник я буду изучать тему "Переменные" на лекции. --- I will be study the topic "The Variables" in a lecture next Monday.
