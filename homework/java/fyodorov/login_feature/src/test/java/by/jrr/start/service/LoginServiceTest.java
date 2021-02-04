@@ -9,6 +9,7 @@ public class LoginServiceTest {
 
     LoginService loginService;
     User user;
+    User blockedUser;
     String positiveUserInput = "password";
     String negativeUserInput = "wrong";
 
@@ -16,15 +17,17 @@ public class LoginServiceTest {
     public void setUp (){
         this.loginService = new LoginService();
         this.user = getUser();
+        this.blockedUser = getBlockedUser();
+
         Assert.assertEquals(3, user.getLoginAttempts());
         Assert.assertFalse(user.isBlocked());
+
+        Assert.assertEquals(0, blockedUser.getLoginAttempts());
+        Assert.assertTrue(blockedUser.isBlocked());
     }
 
     @Test
     public void checkUserPassword_positive(){
-        User user = getUser();
-        Assert.assertEquals(3, user.getLoginAttempts());
-
         boolean actualResult = loginService.checkUserPassword (user, positiveUserInput);
         Assert.assertTrue(actualResult);
 
@@ -32,9 +35,6 @@ public class LoginServiceTest {
 
     @Test
     public void checkUserPassword_negative() {
-        User user = getUser();
-        Assert.assertEquals(3, user.getLoginAttempts());
-
         boolean actualResult = loginService.checkUserPassword(user, negativeUserInput);
         Assert.assertFalse(actualResult);
     }
@@ -81,9 +81,23 @@ public class LoginServiceTest {
         Assert.assertTrue(user.isBlocked());
     }
 
+    @Test
+    public void blockedUserLogin_ShouldReturnFalse (){
+        boolean actualResult = loginService.login(blockedUser, positiveUserInput);
+        Assert.assertFalse(actualResult);
+    }
+
     private User getUser() {
         User user = new User();
         user.setPassword("password");
+        return user;
+    }
+
+    private User getBlockedUser() {
+        User user = new User();
+        user.setPassword("password");
+        user.setLoginAttempts(0);
+        user.setBlocked(true);
         return user;
     }
 }
