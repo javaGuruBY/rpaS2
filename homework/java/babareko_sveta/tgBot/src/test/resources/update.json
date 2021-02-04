@@ -1,0 +1,42 @@
+{
+  "update_id": 918900381,
+  "message": {
+    "chatId": 1304679974,
+    "command": true,
+    "userMessage": true,
+    "channelMessage": false,
+    "groupMessage": false,
+    "reply": false,
+    "superGroupMessage": false,
+    "message_id": 6,
+    "from": {
+      "bot": false,
+      "id": 1304679974,
+      "first_name": "Babareko",
+      "is_bot": false,
+      "last_name": "Sviatlana",
+      "username": "BabarekoSviatlana",
+      "language_code": "ru"
+    },
+    "date": 1612353664,
+    "chat": {
+      "userChat": true,
+      "groupChat": false,
+      "channelChat": false,
+      "superGroupChat": false,
+      "id": 1304679974,
+      "type": "private",
+      "first_name": "Babareko",
+      "last_name": "Sviatlana",
+      "username": "BabarekoSviatlana"
+    },
+    "text": "fedkfj",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}
