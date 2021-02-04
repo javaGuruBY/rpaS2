@@ -1,0 +1,42 @@
+{
+  "update_id": 398554948,
+  "message": {
+    "superGroupMessage": false,
+    "chatId": 551522843,
+    "userMessage": true,
+    "channelMessage": false,
+    "command": true,
+    "groupMessage": false,
+    "reply": false,
+    "message_id": 7,
+    "from": {
+      "bot": false,
+      "id": 551522843,
+      "first_name": "Olga",
+      "is_bot": false,
+      "last_name": "Skiba",
+      "username": "olgaz_skiba",
+      "language_code": "en"
+    },
+    "date": 1612277067,
+    "chat": {
+      "groupChat": false,
+      "userChat": true,
+      "channelChat": false,
+      "superGroupChat": false,
+      "id": 551522843,
+      "type": "private",
+      "first_name": "Olga",
+      "last_name": "Skiba",
+      "username": "olgaz_skiba"
+    },
+    "text": "/settings",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}
