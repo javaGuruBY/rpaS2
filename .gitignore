@@ -59,4 +59,4 @@ hs_err_pid*
 .idea/
 target/
 
-
+lecturer/telegrambot/src/main/resources/application.properties

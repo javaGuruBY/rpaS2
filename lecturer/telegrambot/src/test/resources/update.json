@@ -1,0 +1,40 @@
+{
+  "update_id": 165663915,
+  "message": {
+    "chatId": 1083113433,
+    "groupMessage": false,
+    "userMessage": true,
+    "channelMessage": false,
+    "superGroupMessage": false,
+    "command": true,
+    "reply": false,
+    "message_id": 2,
+    "from": {
+      "bot": false,
+      "id": 1083113433,
+      "first_name": "1",
+      "is_bot": false,
+      "last_name": "Владимир",
+      "language_code": "ru"
+    },
+    "date": 1612299441,
+    "chat": {
+      "groupChat": false,
+      "userChat": true,
+      "channelChat": false,
+      "superGroupChat": false,
+      "id": 1083113433,
+      "type": "private",
+      "first_name": "1",
+      "last_name": "Владимир"
+    },
+    "text": "Здарова, это бот, введи норм команду!)",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}
